@@ -20,6 +20,11 @@ using `#ifeq TARGET` blocks to differentiate between predefined hardware section
 
 Run `gpp lcd4linux.master.conf > lcd4linux.conf` to get a usable target/layout specific configuration file.
 
+Sample Display
+--------------
+
+![Sample DPF display](https://github.com/hkramski/my-lcd4linux-conf/blob/master/demo-dpf-lcd4l-dockstar.png "Sample DPF display")
+
 
 
 
