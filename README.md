@@ -1,6 +1,7 @@
 my-lcd4linux-conf
 =================
-My lcd4linux.conf for a very small, cheap picture frame display (Pearl 2,4" Appotech AX206) on a Seagate Dockstar/Raspberry Pi/Banana Pi
+My lcd4linux.conf for a very small, cheap picture frame display (Pearl 2,4" Appotech AX206) on a Seagate Dockstar/Raspberry
+Pi/Banana Pi.
 
 This is just an example project to get used to GitHub.
 
