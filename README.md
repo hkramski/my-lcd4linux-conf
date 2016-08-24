@@ -14,8 +14,8 @@ Links/Credits
 Generate a specific configuration
 ---------------------------------
 
-Because many definitions are identical across my little machines, a master configuration is held in `lcd4linux.master.conf` using
-#ifeq TARGET` blocks to differentiate between predefined hardware sections.
+Because many definitions are identical across my little machines, a master configuration is held in `lcd4linux.master.conf` 
+using `#ifeq TARGET` blocks to differentiate between predefined hardware sections.
 
 Run `gpp lcd4linux.master.conf > lcd4linux.conf` to get a usable target/layout specific configuration file.
 
