@@ -10,7 +10,7 @@ Links/Credits
 - lcd4linux: https://lcd4linux.bulix.org/
 - DPFs on Seagate Dockstar: http://forum.doozan.com/list.php?9
 - AX206 Hack: https://sourceforge.net/projects/dpf-ax/
-- More on using an AX296: http://picframe.spritesserver.nl/wiki/index.php/DPF_with_AppoTech_AX206
+- More on using an AX206: http://picframe.spritesserver.nl/wiki/index.php/DPF_with_AppoTech_AX206
 
 Generate a specific configuration
 ---------------------------------
