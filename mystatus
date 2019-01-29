@@ -1,49 +1,24 @@
 #!/bin/bash
-# Status von Services robust ausgeben fuer die Abfrage durch LCD4Linux 
-# Kra. 6.2.2012, 29.6.2014
 
 function checkservice() {
 
-   if [ -e /etc/init/"$1".conf ]; 
-   then
-#      # we are using upstart
-#      case "$(/sbin/status $1)" in
-# FIXME
-      # we are using systemd
-      case "$(/usr/sbin/service $1 status)" in
-         *"waiting"*)
-            echo "down!"
-            ;;
-         *"running"*)
-            echo "up"
-            ;;
-         *)
-            echo "down!"
-            ;;
-      esac
-   else
-      if [ -e /etc/init.d/"$1" ]; 
-      then
-         # we are using init.d
-         case "$(/etc/init.d/$1 status)" in
-            *"NOT"*|*"not"*)
-               echo "down!"
-               ;;
-            *"running"*)
-               echo "up"
-               ;;
-            *"Uptime"*) # MySQL returns this
-               echo "up"
-               ;;
-            *)
-               echo "down!"
-               ;;
-         esac
-      else
-         # unknown Service
-         echo "unknown"
-      fi
-   fi
+case "$(/bin/systemctl -n1 status $1 2>&1)" in
+    *"Loaded: not-found"*)
+        echo "unknown"
+        ;;
+    *"could not be found"*)
+        echo "unknown"
+        ;;
+    *"Active: inactive"*)
+        echo "down!"
+        ;;
+    *"Active: active"*)
+        echo "up"
+        ;;
+    *)
+        echo "(error)"
+        ;;
+    esac
 }
 
 if [ -z "$1" ];
