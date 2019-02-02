@@ -13,7 +13,7 @@ Links/Credits
 Pictures
 --------
 
-
+![Sample DPF output](https://github.com/hkramski/my-lcd4linux-conf/blob/master/demo-dpf-lcd4l-helios4.png "Sample DPF output")
 
 ![Hardware](https://github.com/hkramski/my-lcd4linux-conf/blob/master/demo-dpf-helios4.jpg "Hardware")
 
