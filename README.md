@@ -13,7 +13,9 @@ Links/Credits
 Pictures
 --------
 
-![Sample DPF output](https://github.com/hkramski/my-lcd4linux-conf/blob/master/demo-dpf-lcd4l-helios4.png "Sample DPF output")
+![Sample DPF output](https://github.com/hkramski/my-lcd4linux-conf/blob/master/demo-dpf-lcd4l-helios4-compact-layout.png "Sample DPF output (default compact layout)")
+
+![Sample DPF output](https://github.com/hkramski/my-lcd4linux-conf/blob/master/demo-dpf-lcd4l-helios4-classic-layout.png "Sample DPF output (classic layout)")
 
 ![Hardware](https://github.com/hkramski/my-lcd4linux-conf/blob/master/demo-dpf-helios4.jpg "Hardware")
 
