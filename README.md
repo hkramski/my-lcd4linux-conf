@@ -12,7 +12,7 @@ Links/Credits
 
 Pictures
 --------
-Sample DPF output (default compact layout):
+Sample DPF output (default compact layout, including a 'top' section):
 ![Sample DPF output](https://github.com/hkramski/my-lcd4linux-conf/blob/master/demo-dpf-lcd4l-helios4-compact-layout.png "Sample DPF output (default compact layout)")
 
 Sample DPF output (classic layout)
